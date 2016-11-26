@@ -1,0 +1,26 @@
+##Description:
+Website, Social Network to share your helpfull notes and advices with others.
+
+##Features:
+1-share notes on social networks.
+2-upvote and downvote notes.
+3-maximum words 255.
+4-categories.
+5-topics.
+6-comments.
+
+##Tools:
+-HTML5.
+-CSS3.
+-Bootstrap.
+-JavaScript.
+
+##DesignTools:
+-Inkscape.
+
+##Milestones:
+M1- Design the web form.
+M2- Finish Design.
+M3- create logos and icons.
+M4- Fix bugs.
+M5- make it live.
