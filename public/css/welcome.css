@@ -1,0 +1,114 @@
+/* line 3, C:/xampp/htdocs/laravel/public/scss/welcome.scss */
+.logo {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 2em;
+}
+
+/* line 6, C:/xampp/htdocs/laravel/public/scss/welcome.scss */
+.logo span {
+  color: #FF9900;
+}
+
+/* line 11, C:/xampp/htdocs/laravel/public/scss/welcome.scss */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* line 13, C:/xampp/htdocs/laravel/public/scss/welcome.scss */
+.header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+
+/* line 20, C:/xampp/htdocs/laravel/public/scss/welcome.scss */
+.header a {
+  color: #0f0f0f;
+  text-decoration: none;
+  margin: auto;
+  margin: 10px;
+}
+
+/* line 27, C:/xampp/htdocs/laravel/public/scss/welcome.scss */
+.header li {
+  min-width: 55.88px;
+  text-align: center;
+  border: 1px solid #FF9900;
+  padding: 10px;
+  border-radius: 2em;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 42, C:/xampp/htdocs/laravel/public/scss/welcome.scss */
+.mainer {
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  min-height: 400px;
+  justify-content: center;
+}
+
+/* line 49, C:/xampp/htdocs/laravel/public/scss/welcome.scss */
+.mainer .note {
+  background-color: #F8941E;
+  width: 50%;
+  padding: 20px;
+}
+
+/* line 54, C:/xampp/htdocs/laravel/public/scss/welcome.scss */
+.mainer .noteinfo {
+  background-color: white;
+  min-width: 20%;
+  padding: 2px;
+  text-align: center;
+  color: #F8941E;
+  border: 3px solid #F8941E;
+  border-top-right-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* line 66, C:/xampp/htdocs/laravel/public/scss/welcome.scss */
+.mainer .noteinfo ul {
+  list-style: none;
+  display: flex;
+  color: #b1b1b1;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0px;
+}
+
+/* line 74, C:/xampp/htdocs/laravel/public/scss/welcome.scss */
+.mainer .noteinfo li {
+  color: transparent;
+  -webkit-text-stroke: 1px #F8941E;
+}
+
+/* line 78, C:/xampp/htdocs/laravel/public/scss/welcome.scss */
+.mainer .noteinfo li:hover {
+  color: #F8941E;
+  cursor: pointer;
+}
+
+/* line 82, C:/xampp/htdocs/laravel/public/scss/welcome.scss */
+.mainer .noteinfo .clicked {
+  color: #F8941E;
+}
+
+@media screen and (max-width: 420px) {
+  /* line 89, C:/xampp/htdocs/laravel/public/scss/welcome.scss */
+  .mainer {
+    flex-direction: column-reverse;
+  }
+  /* line 91, C:/xampp/htdocs/laravel/public/scss/welcome.scss */
+  .mainer .note {
+    width: auto;
+  }
+}
+
+/*# sourceMappingURL=../css/welcome.map */

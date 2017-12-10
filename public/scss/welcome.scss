@@ -1,0 +1,98 @@
+$orangecolor : #FF9900;
+
+.logo{
+    font-family: 'Cabin Sketch', cursive; 
+    font-size:2em;   
+    span{
+        color: $orangecolor;
+    }
+}
+
+.header{
+    
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style: none;   
+    }
+    
+    a {
+        color: #0f0f0f;
+        text-decoration: none;
+        margin:auto;
+        margin: 10px;
+    }
+    
+    li{
+        min-width: 55.88px;
+        text-align: center;    
+        border: 1px solid $orangecolor;
+        padding: 10px;
+        border-radius: 2em;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ 
+
+.mainer{
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    min-height: 400px;
+    justify-content: center;
+    .note{
+        background-color: #F8941E;
+        width: 50%;
+        padding: 20px;  
+    }
+    .noteinfo{
+        background-color: white;
+        min-width: 20%;
+        
+        padding:2px;
+        text-align: center;
+        color: #F8941E;
+        border: 3px solid #F8941E;
+        border-top-right-radius: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        ul{
+            list-style: none;
+            display: flex;
+            color:#b1b1b1;
+            flex-direction: row;
+            justify-content: space-around;
+            padding: 0px;
+        }
+        li{
+            color:transparent;
+            -webkit-text-stroke:1px #F8941E;
+        }
+        li:hover{
+            color:#F8941E;
+            cursor: pointer;
+        }
+        .clicked{
+            color:#F8941E;
+        }
+    }
+}
+
+@media screen and (max-width:420px){
+    .mainer{
+        flex-direction: column-reverse;
+        .note{
+            width: auto;
+        }
+        .noteinfo{
+
+        }
+    }
+}
